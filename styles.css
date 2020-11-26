@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+.maindiv{
+
+width: 100vw;
+height: 100vh;
+background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("https://wallpapercave.com/wp/wp3067444.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+background-position: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.accio{
+  transition: 0.5s ease;
+}
+.accio:hover{
+  transform:scale(1.2);
+}
+
+.subdiv{
+  font-size:1.5rem;
+
+}
+.wel{
+  font-family: 'Dancing Script',cursive;
+  color: white;
+  padding:2% 0;
+
+}
+.horg{
+  font-size: 1.9rem;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display:inline-block;
+
+  animation: animate 0.9s linear ;
+}
+@keyframes animate {
+  0%{
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(20px);
+  }
+  100%{
+    opacity: 1;
+    transform: rotateY(0);
+    filter: blur(0);
+  }
+}
+
+.work {
+  vertical-align: middle;
+  margin-top: 5%;
+  
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
